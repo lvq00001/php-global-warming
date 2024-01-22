@@ -1,0 +1,56 @@
+/* Centered text */
+.header-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.container-fluid {
+  overflow: hidden;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+.choice-hover:hover {
+  background-color: lightgrey !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.incorrect {
+  background: rgb(255, 166, 166);
+}
+
+.correct {
+  background: rgb(165, 255, 165);
+}
+
+.quiz-start {
+  background-color: rgb(130, 253, 109) !important;
+}
+
+.congratulations {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/446/173/original/colorful-fireworks-background-free-vector.jpg");
+}
+
+.error {
+  background-image: url("https://greatives.eu/wp-content/uploads/2023/03/404-page.jpg");
+}
+
+.quiz {
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/024/082/057/small/jungle-forest-silhouette-rainforest-background-vector.jpg");
+}
